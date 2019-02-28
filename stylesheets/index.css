@@ -21,8 +21,12 @@ html, body {
 
 .picture-frame img {
     width: 100%;
+    opacity: 0.9;
+    transition: all .3s Linear 500ms;
 }
-
+.picture-frame img.big {
+    transform: scale(2.5);
+}
 
 .Rat-playground {
     background: orangered;

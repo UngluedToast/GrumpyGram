@@ -11,10 +11,11 @@ function respondToClick(event) {
     console.log('How do you do?');
     console.log('I am very well, thank you.');
 
-    console.log(event.target.parentElement);
+    console.log(event.target);
     // ad the "big" class to the thing that got clicked"
 
     // event.target.parentElement.classList.add('big');
+    event.target.classList.toggle('big');
 
 }
 
