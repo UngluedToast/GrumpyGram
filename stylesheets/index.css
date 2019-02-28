@@ -11,10 +11,10 @@ html, body {
 }
 
 .picture-frame {
-    width: 80%;
+    width: 50%;
     border: 2px solid cornflowerblue;
     /* display: inline-block; */
-    display: inline-flexbox;
+    display: inherit;
     justify-content: center;
     align-items: center;
 }
@@ -24,25 +24,45 @@ html, body {
 }
 
 .Rat-playground {
+    background: orangered;
     border: 5px solid gray;
     display: flex;
-    min-height: 300px;
-    flex-direction: row;
+    min-height: 150px;
+    flex-direction: column;
     /* how to line up on main axis */
     align-items: center;
     /* how to line up on cross axis */
     justify-content: flex-start;
-    flex-wrap: wrap;
+    
 
 
 }
+
+.picture-frame:hover img {
+    outline: 5px solid red;
+}
+
+.picture-frame:hover img {
+    transform: scale(1.10);
+    opacity: 1.0;
+}
+
+.picture-frame
+
+
+
+
+
+
+
+
 /* its like an if statement, but for CSS */
 @media screen and (min-width: 500px) {
 
 
 
-    body{
-        background: red;
+    body {
+        background: yellow;
     }
     .picture-frame {
         width: 40%;
@@ -65,6 +85,12 @@ html, body {
     .logo-text {
         font-size: 32px;
         text-align: center;
+    }
+    .picture-frame {
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
 }
