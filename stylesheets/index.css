@@ -23,6 +23,7 @@ html, body {
     width: 100%;
 }
 
+
 .Rat-playground {
     background: orangered;
     border: 5px solid gray;
@@ -36,6 +37,10 @@ html, body {
     
 
 
+}
+
+.picture-frame.big img {
+    transform: scale(2.0);
 }
 
 .picture-frame:hover img {
